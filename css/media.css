@@ -1,0 +1,460 @@
+/* RWD with Xs sizes. ex: Iphone6/7/8/X  */
+@media all and (max-width:575px){
+.caption-parent .caption{
+    transform: scale(0.75,0.75);
+}
+/* end of home */
+.about{
+    padding: 30px 12px;
+}
+.about .container{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px 5px;
+}
+.about .img{
+    width: 100%;
+}
+.about .content{
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.about .content h2{
+    font-size: normal;
+    margin-top: 10px;
+}
+.about .content ul li{
+    width: 100%;
+}
+/* end of about */
+.services{
+    padding: 30px 12px;
+}
+.services .container{
+    padding: 10px 0;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.services .service-area{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+.services .service{
+    padding: 10px 5px;
+}
+/* end of services */
+.Portfolio .container{
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.Portfolio .container .project-imgs{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.Portfolio .container .project-imgs .img{
+    width: 100%;
+}
+/* end of Portfolio */
+.achievements .container{
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.achievements .child{
+    width: 100%;
+    padding: 10px 5px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+/* end of achievements */
+.feedback .container{
+    width: 100%;
+    padding: 5px 10px 0px;
+}
+.feedback .container .bg{
+    background-image: url(../img/narrrow.png);
+    background-size: 100% 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 15px;
+    margin: 5px;
+}
+.feedback .container .bg .img{
+    width: 50%;
+    text-align: center;
+    margin: 0 0;
+    padding: 15px 0 0;
+}
+.feedback .container .bg .caption{
+    width: 96%;
+    padding: 8px 8px;
+}
+/* end of feedback section */
+.blog{
+    padding: 5px 10px 20px;
+}
+.blog .container{
+    width: 100%;
+    padding:0px 0 10px ;
+}
+.blog .container .blog-view{
+    width: 100%;
+    padding: 0 0;
+    margin: 10px 10px;
+}
+.blog .container .blog-articles{
+    flex-wrap: wrap;
+}
+/* end of blog */
+.contact{
+    padding: 20px 10px;
+}
+.contact .container{
+    width: 100%;
+}
+.contact .form-house{
+    flex-wrap: wrap;
+}
+.contact .form-house .parent{
+    flex-wrap: wrap; 
+}
+.contact .form-house .form-group1,.contact .form-house .form-group2{
+    width: 100%;
+    margin: 10px 0;
+}
+.contact .form-house .form-group1 input ,.contact .form-house .form-group input , textarea{
+    min-width: 100%;
+}
+}
+/* RWD with Sml sizes. ex:Ipad */
+@media all and (min-width:576px) and (max-width:767px){
+    .about{
+        padding: 30px 15px;
+    }
+    .about .container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 0;
+    }
+    .about .img{
+        width: 50%;
+        border: transparent;
+        align-self: center;
+    }
+    .about .content{
+        width: 50%;
+        margin: 0 0;
+        padding: 0 20px;
+    }
+    .about .content ul li{
+        width: 100%;
+    }
+    .about .content h2{
+        font-size: normal;
+        margin-top: 10px;
+    }
+    .about .content h2{
+    margin-bottom: 25px;
+    padding-left: 8px;
+    }
+    .about .content p{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .about .content ul{
+        line-height: 25px;
+    }
+    .about .content .btns{
+        margin: 20px 0 0;
+    }
+    .about .content .btns a{
+        margin-right: 6px;
+        padding: 8px 8px;
+    }
+    /* end of about section */
+    .services{
+        padding: 30px 12px;
+    }
+    .services .container{
+        padding: 10px 0;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .services .service-area{
+        width: 50%;
+        margin: 10px 0;
+        padding: 20px 15px;
+    }
+    .services .service{
+        padding: 10px 5px;
+    }
+    /* end of services */
+    .Portfolio .container{
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .Portfolio .container .project-imgs{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .Portfolio .container .project-imgs .img{
+        width: 47%;
+        margin: 10px 8px;
+        /* padding: 10px 8px; */
+    }
+    /* end of Portfolio */
+    .achievements .container{
+        width: 100%;
+    }
+    /* end of achievements */
+    .feedback .container{
+        width: 100%;
+        padding: 0 0;
+    }
+    .feedback .container .bg{
+        width: 100%;
+    }
+    /* end of feedback */
+    .blog{
+        padding: 5px 10px 20px;
+    }
+    .blog .container{
+        width: 100%;
+        padding:0px 0 10px ;
+    }
+    .blog .container .blog-view{
+        width: 30%;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+    .blog .container .blog-articles{
+        flex-wrap: wrap;
+    }
+    .blog .container .blog-view .caption p{
+        margin: 0 0;
+        padding: 8px 0;
+    }
+    .blog .container .blog-view .caption h3{
+        margin: 0 0;
+        font-size: 100%;
+    }
+    /* .blog{
+        padding: 5px 10px 20px;
+    }
+    .blog .container{
+        width: 100%;
+        padding:0px 0 10px ;
+    }
+    .blog .container .blog-view{
+        width: 100%;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+    .blog .container .blog-articles{
+        flex-wrap: wrap;
+    } */
+    /* end of blog */
+}
+/* RWD with Med sizes. bigger than Ipad*/
+@media all and (min-width:768px) and (max-width:991px){
+    .about{
+        padding: 30px 15px;
+    }
+    .about .container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 0;
+    }
+    .about .img{
+        width: 50%;
+        border: transparent;
+        align-self: center;
+    }
+    .about .content{
+        width: 50%;
+        margin: 0 0;
+        padding: 0 20px;
+    }
+    .about .content ul li{
+        width: 100%;
+    }
+    .about .content h2{
+        font-size: normal;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    padding-left: 8px;
+    }
+    .about .content p{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .about .content ul{
+        line-height: 25px;
+    }
+    .about .content .btns{
+        margin: 20px 0 0;
+    }
+    .about .content .btns a{
+        margin-right: 6px;
+        padding: 8px 8px;
+    }
+    /* end of about section */
+    .services{
+        padding: 30px 12px;
+    }
+    .services .container{
+        padding: 10px 0;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .services .service-area{
+        width: 50%;
+        margin: 10px 0;
+        padding: 20px 15px;
+    }
+    .services .service{
+        padding: 10px 5px;
+    }
+    /* end of services */
+    .Portfolio .container{
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .Portfolio .container .project-imgs{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .Portfolio .container .project-imgs .img{
+        width: 47%;
+        margin: 10px 8px;
+        /* padding: 10px 8px; */
+    }
+    /* end of Portfolio */
+    .achievements .container{
+        width: 100%;
+    }
+    /* end of achievements */
+    .feedback .container{
+        width: 100%;
+        padding: 0 0;
+    }
+    .feedback .container .bg{
+        width: 100%;
+    }
+    /* end of feedback */
+    .blog{
+        padding: 5px 10px 20px;
+    }
+    .blog .container{
+        width: 100%;
+        padding:0px 0 10px ;
+    }
+    .blog .container .blog-view{
+        width: 30%;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+    .blog .container .blog-articles{
+        flex-wrap: wrap;
+    }
+    .blog .container .blog-view .caption p{
+        margin: 0 0;
+        padding: 8px 0;
+    }
+    .blog .container .blog-view .caption h3{
+        margin: 0 0;
+        font-size: 100%;
+    }
+    /* end of blog */
+}
+/* RWD with Large sizes. ex: Ipad Pro and old pcs */
+@media all and (min-width:992px) and (max-width:1200px){
+    .about{
+        padding: 30px 15px;
+    }
+    .about .container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 0;
+    }
+    .about .img{
+        width: 40%;
+        border: transparent;
+        align-self: center;
+    }
+    .about .content{
+        width: 60%;
+        margin: 0 0;
+        padding: 0 20px;
+    }
+    .about .content .btns{
+        margin: 20px 0 0;
+    }
+    .about .content .btns a{
+        margin-right: 6px;
+        padding: 8px 8px;
+    }
+    /* end of about */
+    .services{
+        padding: 30px 12px;
+    }
+    .services .container{
+        padding: 10px 0;
+        width: 100%;
+    }
+    /* end of services */
+    .Portfolio .container{
+        width: 100%;
+    }
+    .feedback .container{
+        width: 90%;
+        padding: 10px 10px;
+    }
+    .feedback .container .bg{
+        width: 100%;
+    }
+    .feedback .container .bg .img img{
+        width: 60%;
+    }
+    /* end of feedback */
+    .blog{
+        padding: 5px 10px 20px;
+    }
+    .blog .container{
+        width: 100%;
+        padding:0px 0 10px ;
+    }
+    .blog .container .blog-view{
+        width: 30%;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+    .blog .container .blog-articles{
+        flex-wrap: wrap;
+    }
+    .blog .container .blog-view .caption p{
+        margin: 0 0;
+        padding: 8px 0;
+    }
+    .blog .container .blog-view .caption h3{
+        margin: 0 0;
+        font-size: 100%;
+    }
+    /* end of blog */
+
+}
+
